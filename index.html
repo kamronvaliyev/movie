@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link href="https://cdn.jsdelivr.net/n/pm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1><a href="/">Movie Universe</a></h1>
+      <div class="form">
+         <form data-search-form>
+           <input type="text" name="name" />
+           <button type="submit">Search</button>
+        </form>
+        <ul data-ul></ul>
+     </div>
+    <div class="modal" id="modal-info" data-modal>
+      <div class="modal2" data-modal-content>
+        <img  data-poster>
+        <div class="modal_text">
+          <div>
+            <button type="button" data-btn-close>&#10005 </button>
+          </div>
+          <h2 data-title-movie></h2>
+          <p data-type-movie></p>
+          <p data-genre-movie></p>
+          <p data-direction></p>
+          <p data-year-movie></p>
+          <p data-id-movie></p>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
